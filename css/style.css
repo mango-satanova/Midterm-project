@@ -1,11 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+
 }
-header{
+.main-page{
     background-image: url(../img/bgc-img2.jpeg);
     background-position: center;
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-repeat: no-repeat;
+}
+header{
+    background: rgba(24, 23, 23, 0.75);
+    display: flex;
+    justify-content: space-around;
+    
+}
+header .logo img{
+    width: 190px;
+}
+header .links{
+    margin: 50px;
+}
+.about-page{
+    background-image: url(../img/bg03.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1100px;
+}
+.about-page h2{
+    color: #fff;
+    background: #000;
+    font-size: 40px;
+    padding: 40px;
+    padding-left: 450px;
+}
+.about-page span{
+    color: yellow;
 }
