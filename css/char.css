@@ -56,5 +56,9 @@ header a{
 .hero img{
     width: 500px;
 }
-
+.about-hero{
+    color: #fff;
+    font-weight: 300;
+    margin-left: 100px;
+}
 /* 1 */
