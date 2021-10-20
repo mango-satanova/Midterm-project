@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta title="device=width-device">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">   
+    <title>AnimePedia</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop() != 0) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+        $('#toTop').click(function() {
+            $('body,html').animate({scrollTop:0},800);
+        });
+    });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <section class="main-page">
+            <header class="header">
+                <a href="" class="logo"><img src="../img/header-icons/logo.png" alt=""></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#ch">character</a></li>
+                  <li><a href="#mv">movie</a></li>
+                  <li><a href="#gl">gallery</a></li>
+                </ul>
+              </header>
+            <!-- <header>
+                <a class="logo" href="index.html"><img src="../img/header-icons/logo.png" alt=""></a>
+                <div class="links">
+                    <a href="#about">About</a>
+                    <a href="#ch">character</a>
+                    <a href="#mv">movie</a>
+                    <a href="#gl">Gallery</a>
+                </div>
+            </header> -->
+        </section>
+        <section class="about-page" id="about">
+            <h2><span>Genres:</span>  Adventure, Action, and Science Fiction.
+                <span>Topics:</span>  shonen, superpower, and school.
+                <span>Years of issue:</span>  2016, 2017, 2018, 2019, 2021. 
+                <span>Original title:</span>  Boku no Hero Academia</h2>
+            <div class="about-page-blocks">
+                <div class="about-page-block">
+                    <img src="../img/icons/midory.png" alt="midory">
+                </div>
+                <div class="about-page-block">
+                    <p>In the world of <span>"Boku no Hero Academia"</span>  everyone can become a superhero, 
+                        because people are immediately born with an unusual power called a Quirk. 
+                        Everyone except <span>Midoriya</span> - a boy who dreams of becoming a superhero, 
+                        perhaps more than many others, but by an unfortunate accident born 
+                        without a Quirk. And, as usually happens in anime, the case again decides 
+                        everything: the most famous and strongest superhero in the world, 
+                        nicknamed the Almighty, takes to train Midoriya,
+                        after which he gives him part of his strength so that he can fulfill his dream -  <br>
+                        he entered the <span>superhero academy</span> .</p>
+                </div>
+            </div>
+        </section>
+        <section id="ch" class="character-page">
+            <img class="char imgs" src="../img/icons/character.png" alt="character">
+            <div class="heroes">
+                <a href="1.html"><img src="../img/hero-icons/1.png" alt="1"></a>
+                <a href="2.html"><img src="../img/hero-icons/2.png" alt="2"></a>
+                <a href="3.html"><img src="../img/hero-icons/3.png" alt="3"></a>
+                <a href="4.html"><img src="../img/hero-icons/4.png" alt="4"></a>
+                <a href="5.html"><img src="../img/hero-icons/5.png" alt="5"></a>
+                <a href="6.html"><img src="../img/hero-icons/6.png" alt="6"></a>
+                <a href="7.html"><img src="../img/hero-icons/7.png" alt="7"></a>
+                <a href="8.html"><img src="../img/hero-icons/8.png" alt="8"></a>
+                <a href="9.html"><img src="../img/hero-icons/9.png" alt="9"></a>
+                <a href="10.html"><img src="../img/hero-icons/10.png" alt="10"></a>
+                <a href="11.html"><img src="../img/hero-icons/11.png" alt="11"></a>
+                <a href="12.html"><img src="../img/hero-icons/12.png" alt="12"></a>
+                <a href="13.html"><img src="../img/hero-icons/13.png" alt="13"></a>
+                <a href="14.html"><img src="../img/hero-icons/14.png" alt="14"></a>
+                <a href="15.html"><img src="../img/hero-icons/15.png" alt="15"></a>
+                <a href="16.html"><img src="../img/hero-icons/16.png" alt="16"></a>
+                <a href="17.html"><img src="../img/hero-icons/17.png" alt="17"></a>
+                <a href="18.html"><img src="../img/hero-icons/18.png" alt="18"></a>
+                <a href="19.html"><img src="../img/hero-icons/19.png" alt="19"></a>
+                <a href="20.html"><img src="../img/hero-icons/20.png" alt="20"></a>
+            </div>
+        </section>
+        <section id="mv" class="movie-page">
+            <img class="mov imgs" src="../img/movie-icons/movie.png" alt="movie">
+            
+            <div class="seasons">
+                <h2>Season 1</h2>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/1.480.c0ecbaedf87f0c71.mp4?hash1=debc3d77945d2a0bb1dc983df110aba6&hash2=6af70a20c8bf7912cec6bd0191aa667c">
+                    <button>1 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/2.480.f20f58a16f17cb1a.mp4?hash1=e2ebc96a8c0e32399760ad2d9803e9c8&hash2=fa24b3a7f037808e8e4f65d337804c56">
+                    <button>2 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/3.480.98e21d83bd77e62f.mp4?hash1=ba7ba5f627ba94ec28c218c1ad746bbc&hash2=349f5ee959ef58edb00c521d944f61a8">
+                    <button>3 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/4.480.77bfc27e72b5ecf8.mp4?hash1=f3f8ac92bd0bc4c01d11f2cc39cdab09&hash2=94b0350f568f4d6ceaee7a0030cc0383">
+                    <button>4 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/5.480.a37288236ebdf280.mp4?hash1=5e70b8cdad3386c2ba322eaff6203735&hash2=77b550404b50ecedfdcf9a04da71c925">
+                    <button>5 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/6.480.a872ab9d70e9fb3b.mp4?hash1=8837d6fc68303ab421d747715a172e85&hash2=44a90d8ba2f8cf379579ea9416ee7b00">
+                    <button>6 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/7.480.88335659de0605f5.mp4?hash1=e45956b05258bacc3171cef614b322fc&hash2=40492da0c8a0b9c9ababfd04497022dc">
+                    <button>7 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/8.480.0bf406296424e191.mp4?hash1=03dbffa9785ee5dc23d0092bb0e32b99&hash2=fd1293c5253be6863c42609d5d2dc244">
+                    <button>8 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/9.480.af1e8518cc5a8df6.mp4?hash1=6859d115aa067b634b7addb69ef02d2f&hash2=632544bf4faacbe3865a803a92306d3d">
+                    <button>9 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/10.480.3be329eddf3ca95a.mp4?hash1=aee4c8ce11f0a26771512f8b59a48457&hash2=6a28b1398a3b79cec2fadabf9570245a">
+                    <button>10 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/11.480.3c04a6246cffae33.mp4?hash1=ed792704dd91a77eaa5d8b0526709feb&hash2=6cf4c13ee9a24d41a597233975fefaea">
+                    <button>11 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/12.480.0c071f86c2b350d5.mp4?hash1=3cd3fabd0218f17d6fcf2049707162ac&hash2=c0938f5d6b6305dd93b081d09164a50b">
+                    <button>12 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/13.480.9f4c3f1c87d879cf.mp4?hash1=235966425e46b4c8b44ea9956b0c8908&hash2=b76556710138f9c2acea12c3d94e0cee">
+                    <button>13 series</button>
+                </a>
+            </div>
+    
+            <div class="seasons">
+                <h2>Season 2</h2>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/1.480.c0ecbaedf87f0c71.mp4?hash1=debc3d77945d2a0bb1dc983df110aba6&hash2=6af70a20c8bf7912cec6bd0191aa667c">
+                    <button>1 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/2.480.f20f58a16f17cb1a.mp4?hash1=e2ebc96a8c0e32399760ad2d9803e9c8&hash2=fa24b3a7f037808e8e4f65d337804c56">
+                    <button>2 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/3.480.98e21d83bd77e62f.mp4?hash1=ba7ba5f627ba94ec28c218c1ad746bbc&hash2=349f5ee959ef58edb00c521d944f61a8">
+                    <button>3 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/4.480.77bfc27e72b5ecf8.mp4?hash1=f3f8ac92bd0bc4c01d11f2cc39cdab09&hash2=94b0350f568f4d6ceaee7a0030cc0383">
+                    <button>4 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/5.480.a37288236ebdf280.mp4?hash1=5e70b8cdad3386c2ba322eaff6203735&hash2=77b550404b50ecedfdcf9a04da71c925">
+                    <button>5 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/6.480.a872ab9d70e9fb3b.mp4?hash1=8837d6fc68303ab421d747715a172e85&hash2=44a90d8ba2f8cf379579ea9416ee7b00">
+                    <button>6 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/7.480.88335659de0605f5.mp4?hash1=e45956b05258bacc3171cef614b322fc&hash2=40492da0c8a0b9c9ababfd04497022dc">
+                    <button>7 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/8.480.0bf406296424e191.mp4?hash1=03dbffa9785ee5dc23d0092bb0e32b99&hash2=fd1293c5253be6863c42609d5d2dc244">
+                    <button>8 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/9.480.af1e8518cc5a8df6.mp4?hash1=6859d115aa067b634b7addb69ef02d2f&hash2=632544bf4faacbe3865a803a92306d3d">
+                    <button>9 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/10.480.3be329eddf3ca95a.mp4?hash1=aee4c8ce11f0a26771512f8b59a48457&hash2=6a28b1398a3b79cec2fadabf9570245a">
+                    <button>10 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/11.480.3c04a6246cffae33.mp4?hash1=ed792704dd91a77eaa5d8b0526709feb&hash2=6cf4c13ee9a24d41a597233975fefaea">
+                    <button>11 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/12.480.0c071f86c2b350d5.mp4?hash1=3cd3fabd0218f17d6fcf2049707162ac&hash2=c0938f5d6b6305dd93b081d09164a50b">
+                    <button>12 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/13.480.9f4c3f1c87d879cf.mp4?hash1=235966425e46b4c8b44ea9956b0c8908&hash2=b76556710138f9c2acea12c3d94e0cee">
+                    <button>13 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/14.480.25ea6e969165a9ca.mp4?hash1=3c260ebb65aa659b6698fb6be7e6f748&hash2=50db42e0dc11b6def1e52fd7b27f1005">
+                    <button>14 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/15.480.1e15f52a7a7f1111.mp4?hash1=8438d83f802bc09132c33247c555bdc9&hash2=e39fbcf8e3f3cffdf04c29ef5abae295">
+                    <button>15 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/16.480.c4b97a2c7d045aa7.mp4?hash1=56e3f1cee74f92c569f5b414e749b939&hash2=cbde9fe15255fd71ca444f9241dc827f">
+                    <button>16 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/17.480.f8fdb53aa4aa3a80.mp4?hash1=c4e68a97bb5e41a26febda2455e6682b&hash2=63231942a6472dca18e05d34f6808139">
+                    <button>17 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/18.480.eb9b8c6ad6159742.mp4?hash1=8419e6261fe19703d1748deb8886b3f4&hash2=17ab973d1afebbcb93709704dad0bac2">
+                    <button>18 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/19.480.3a004233a7bffd9a.mp4?hash1=77d4cb064becb225ecbd5a4672b2c652&hash2=087046b8c8f4eedb2c5d468e56288402">
+                    <button>19 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/20.480.15ee190462b96966.mp4?hash1=0fc88070c90b3d8e47989460ae0a4789&hash2=742ccd127d9dc5dbefa4f0e4386758b8">
+                    <button>20 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/21.480.9583fdded927837c.mp4?hash1=488b4f4ec74ee034bcfbfb7a4a735d62&hash2=e33f0abaee92f3a5edb7b5a2d2da03b1">
+                    <button>21 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/22.480.117ee370491c8a53.mp4?hash1=3ac64a096a7a086aaf0de651283f89a3&hash2=587512509a32bb7973e098e0f6040798">
+                    <button>22 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/23.480.a7e59a5b36a2f46e.mp4?hash1=83648ccfb82e33e189da7954d6a7a403&hash2=c3dd96438f3c2685fa61440603510a67">
+                    <button>23 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/24.480.ec19e49d8a471dff.mp4?hash1=b35b9ede288e75243e53bc2f73db025d&hash2=0f47b7eddcec0a482d93d83b69246a8b">
+                    <button>24 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/25.480.74bae7db5f1ac0a0.mp4?hash1=429fb6e7f683a42e26561b891e6f57ef&hash2=edb08019ab935c29b8247504317051eb">
+                    <button>25 series</button>
+                </a>
+            </div>
+    
+    
+            <div class="seasons">
+                <h2>Season 3</h2>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/1.480.c0ecbaedf87f0c71.mp4?hash1=debc3d77945d2a0bb1dc983df110aba6&hash2=6af70a20c8bf7912cec6bd0191aa667c">
+                    <button>1 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/2.480.f20f58a16f17cb1a.mp4?hash1=e2ebc96a8c0e32399760ad2d9803e9c8&hash2=fa24b3a7f037808e8e4f65d337804c56">
+                    <button>2 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/3.480.98e21d83bd77e62f.mp4?hash1=ba7ba5f627ba94ec28c218c1ad746bbc&hash2=349f5ee959ef58edb00c521d944f61a8">
+                    <button>3 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/4.480.77bfc27e72b5ecf8.mp4?hash1=f3f8ac92bd0bc4c01d11f2cc39cdab09&hash2=94b0350f568f4d6ceaee7a0030cc0383">
+                    <button>4 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/5.480.a37288236ebdf280.mp4?hash1=5e70b8cdad3386c2ba322eaff6203735&hash2=77b550404b50ecedfdcf9a04da71c925">
+                    <button>5 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/6.480.a872ab9d70e9fb3b.mp4?hash1=8837d6fc68303ab421d747715a172e85&hash2=44a90d8ba2f8cf379579ea9416ee7b00">
+                    <button>6 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/7.480.88335659de0605f5.mp4?hash1=e45956b05258bacc3171cef614b322fc&hash2=40492da0c8a0b9c9ababfd04497022dc">
+                    <button>7 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/8.480.0bf406296424e191.mp4?hash1=03dbffa9785ee5dc23d0092bb0e32b99&hash2=fd1293c5253be6863c42609d5d2dc244">
+                    <button>8 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/9.480.af1e8518cc5a8df6.mp4?hash1=6859d115aa067b634b7addb69ef02d2f&hash2=632544bf4faacbe3865a803a92306d3d">
+                    <button>9 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/10.480.3be329eddf3ca95a.mp4?hash1=aee4c8ce11f0a26771512f8b59a48457&hash2=6a28b1398a3b79cec2fadabf9570245a">
+                    <button>10 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/11.480.3c04a6246cffae33.mp4?hash1=ed792704dd91a77eaa5d8b0526709feb&hash2=6cf4c13ee9a24d41a597233975fefaea">
+                    <button>11 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/12.480.0c071f86c2b350d5.mp4?hash1=3cd3fabd0218f17d6fcf2049707162ac&hash2=c0938f5d6b6305dd93b081d09164a50b">
+                    <button>12 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/13.480.9f4c3f1c87d879cf.mp4?hash1=235966425e46b4c8b44ea9956b0c8908&hash2=b76556710138f9c2acea12c3d94e0cee">
+                    <button>13 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/14.480.25ea6e969165a9ca.mp4?hash1=3c260ebb65aa659b6698fb6be7e6f748&hash2=50db42e0dc11b6def1e52fd7b27f1005">
+                    <button>14 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/15.480.1e15f52a7a7f1111.mp4?hash1=8438d83f802bc09132c33247c555bdc9&hash2=e39fbcf8e3f3cffdf04c29ef5abae295">
+                    <button>15 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/16.480.c4b97a2c7d045aa7.mp4?hash1=56e3f1cee74f92c569f5b414e749b939&hash2=cbde9fe15255fd71ca444f9241dc827f">
+                    <button>16 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/17.480.f8fdb53aa4aa3a80.mp4?hash1=c4e68a97bb5e41a26febda2455e6682b&hash2=63231942a6472dca18e05d34f6808139">
+                    <button>17 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/18.480.eb9b8c6ad6159742.mp4?hash1=8419e6261fe19703d1748deb8886b3f4&hash2=17ab973d1afebbcb93709704dad0bac2">
+                    <button>18 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/19.480.3a004233a7bffd9a.mp4?hash1=77d4cb064becb225ecbd5a4672b2c652&hash2=087046b8c8f4eedb2c5d468e56288402">
+                    <button>19 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/20.480.15ee190462b96966.mp4?hash1=0fc88070c90b3d8e47989460ae0a4789&hash2=742ccd127d9dc5dbefa4f0e4386758b8">
+                    <button>20 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/21.480.9583fdded927837c.mp4?hash1=488b4f4ec74ee034bcfbfb7a4a735d62&hash2=e33f0abaee92f3a5edb7b5a2d2da03b1">
+                    <button>21 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/22.480.117ee370491c8a53.mp4?hash1=3ac64a096a7a086aaf0de651283f89a3&hash2=587512509a32bb7973e098e0f6040798">
+                    <button>22 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/23.480.a7e59a5b36a2f46e.mp4?hash1=83648ccfb82e33e189da7954d6a7a403&hash2=c3dd96438f3c2685fa61440603510a67">
+                    <button>23 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/24.480.ec19e49d8a471dff.mp4?hash1=b35b9ede288e75243e53bc2f73db025d&hash2=0f47b7eddcec0a482d93d83b69246a8b">
+                    <button>24 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/25.480.74bae7db5f1ac0a0.mp4?hash1=429fb6e7f683a42e26561b891e6f57ef&hash2=edb08019ab935c29b8247504317051eb">
+                    <button>25 series</button>
+                </a>
+            </div>
+    
+            <div class="seasons">
+                <h2>Season 4</h2>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/1.480.c0ecbaedf87f0c71.mp4?hash1=debc3d77945d2a0bb1dc983df110aba6&hash2=6af70a20c8bf7912cec6bd0191aa667c">
+                    <button>1 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/2.480.f20f58a16f17cb1a.mp4?hash1=e2ebc96a8c0e32399760ad2d9803e9c8&hash2=fa24b3a7f037808e8e4f65d337804c56">
+                    <button>2 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/3.480.98e21d83bd77e62f.mp4?hash1=ba7ba5f627ba94ec28c218c1ad746bbc&hash2=349f5ee959ef58edb00c521d944f61a8">
+                    <button>3 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/4.480.77bfc27e72b5ecf8.mp4?hash1=f3f8ac92bd0bc4c01d11f2cc39cdab09&hash2=94b0350f568f4d6ceaee7a0030cc0383">
+                    <button>4 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/5.480.a37288236ebdf280.mp4?hash1=5e70b8cdad3386c2ba322eaff6203735&hash2=77b550404b50ecedfdcf9a04da71c925">
+                    <button>5 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/6.480.a872ab9d70e9fb3b.mp4?hash1=8837d6fc68303ab421d747715a172e85&hash2=44a90d8ba2f8cf379579ea9416ee7b00">
+                    <button>6 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/7.480.88335659de0605f5.mp4?hash1=e45956b05258bacc3171cef614b322fc&hash2=40492da0c8a0b9c9ababfd04497022dc">
+                    <button>7 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/8.480.0bf406296424e191.mp4?hash1=03dbffa9785ee5dc23d0092bb0e32b99&hash2=fd1293c5253be6863c42609d5d2dc244">
+                    <button>8 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/9.480.af1e8518cc5a8df6.mp4?hash1=6859d115aa067b634b7addb69ef02d2f&hash2=632544bf4faacbe3865a803a92306d3d">
+                    <button>9 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/10.480.3be329eddf3ca95a.mp4?hash1=aee4c8ce11f0a26771512f8b59a48457&hash2=6a28b1398a3b79cec2fadabf9570245a">
+                    <button>10 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/11.480.3c04a6246cffae33.mp4?hash1=ed792704dd91a77eaa5d8b0526709feb&hash2=6cf4c13ee9a24d41a597233975fefaea">
+                    <button>11 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/12.480.0c071f86c2b350d5.mp4?hash1=3cd3fabd0218f17d6fcf2049707162ac&hash2=c0938f5d6b6305dd93b081d09164a50b">
+                    <button>12 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/13.480.9f4c3f1c87d879cf.mp4?hash1=235966425e46b4c8b44ea9956b0c8908&hash2=b76556710138f9c2acea12c3d94e0cee">
+                    <button>13 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/14.480.25ea6e969165a9ca.mp4?hash1=3c260ebb65aa659b6698fb6be7e6f748&hash2=50db42e0dc11b6def1e52fd7b27f1005">
+                    <button>14 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/15.480.1e15f52a7a7f1111.mp4?hash1=8438d83f802bc09132c33247c555bdc9&hash2=e39fbcf8e3f3cffdf04c29ef5abae295">
+                    <button>15 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/16.480.c4b97a2c7d045aa7.mp4?hash1=56e3f1cee74f92c569f5b414e749b939&hash2=cbde9fe15255fd71ca444f9241dc827f">
+                    <button>16 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/17.480.f8fdb53aa4aa3a80.mp4?hash1=c4e68a97bb5e41a26febda2455e6682b&hash2=63231942a6472dca18e05d34f6808139">
+                    <button>17 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/18.480.eb9b8c6ad6159742.mp4?hash1=8419e6261fe19703d1748deb8886b3f4&hash2=17ab973d1afebbcb93709704dad0bac2">
+                    <button>18 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/19.480.3a004233a7bffd9a.mp4?hash1=77d4cb064becb225ecbd5a4672b2c652&hash2=087046b8c8f4eedb2c5d468e56288402">
+                    <button>19 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/20.480.15ee190462b96966.mp4?hash1=0fc88070c90b3d8e47989460ae0a4789&hash2=742ccd127d9dc5dbefa4f0e4386758b8">
+                    <button>20 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/21.480.9583fdded927837c.mp4?hash1=488b4f4ec74ee034bcfbfb7a4a735d62&hash2=e33f0abaee92f3a5edb7b5a2d2da03b1">
+                    <button>21 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/22.480.117ee370491c8a53.mp4?hash1=3ac64a096a7a086aaf0de651283f89a3&hash2=587512509a32bb7973e098e0f6040798">
+                    <button>22 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/23.480.a7e59a5b36a2f46e.mp4?hash1=83648ccfb82e33e189da7954d6a7a403&hash2=c3dd96438f3c2685fa61440603510a67">
+                    <button>23 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/24.480.ec19e49d8a471dff.mp4?hash1=b35b9ede288e75243e53bc2f73db025d&hash2=0f47b7eddcec0a482d93d83b69246a8b">
+                    <button>24 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/25.480.74bae7db5f1ac0a0.mp4?hash1=429fb6e7f683a42e26561b891e6f57ef&hash2=edb08019ab935c29b8247504317051eb">
+                    <button>25 series</button>
+                </a>
+            </div>
+    
+            <div class="seasons">
+                <h2>Season 5</h2>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/1.480.c0ecbaedf87f0c71.mp4?hash1=debc3d77945d2a0bb1dc983df110aba6&hash2=6af70a20c8bf7912cec6bd0191aa667c">
+                    <button>1 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/2.480.f20f58a16f17cb1a.mp4?hash1=e2ebc96a8c0e32399760ad2d9803e9c8&hash2=fa24b3a7f037808e8e4f65d337804c56">
+                    <button>2 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/3.480.98e21d83bd77e62f.mp4?hash1=ba7ba5f627ba94ec28c218c1ad746bbc&hash2=349f5ee959ef58edb00c521d944f61a8">
+                    <button>3 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/4.480.77bfc27e72b5ecf8.mp4?hash1=f3f8ac92bd0bc4c01d11f2cc39cdab09&hash2=94b0350f568f4d6ceaee7a0030cc0383">
+                    <button>4 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/5.480.a37288236ebdf280.mp4?hash1=5e70b8cdad3386c2ba322eaff6203735&hash2=77b550404b50ecedfdcf9a04da71c925">
+                    <button>5 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/6.480.a872ab9d70e9fb3b.mp4?hash1=8837d6fc68303ab421d747715a172e85&hash2=44a90d8ba2f8cf379579ea9416ee7b00">
+                    <button>6 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/7.480.88335659de0605f5.mp4?hash1=e45956b05258bacc3171cef614b322fc&hash2=40492da0c8a0b9c9ababfd04497022dc">
+                    <button>7 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/8.480.0bf406296424e191.mp4?hash1=03dbffa9785ee5dc23d0092bb0e32b99&hash2=fd1293c5253be6863c42609d5d2dc244">
+                    <button>8 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/9.480.af1e8518cc5a8df6.mp4?hash1=6859d115aa067b634b7addb69ef02d2f&hash2=632544bf4faacbe3865a803a92306d3d">
+                    <button>9 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/10.480.3be329eddf3ca95a.mp4?hash1=aee4c8ce11f0a26771512f8b59a48457&hash2=6a28b1398a3b79cec2fadabf9570245a">
+                    <button>10 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/11.480.3c04a6246cffae33.mp4?hash1=ed792704dd91a77eaa5d8b0526709feb&hash2=6cf4c13ee9a24d41a597233975fefaea">
+                    <button>11 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/12.480.0c071f86c2b350d5.mp4?hash1=3cd3fabd0218f17d6fcf2049707162ac&hash2=c0938f5d6b6305dd93b081d09164a50b">
+                    <button>12 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/1/13.480.9f4c3f1c87d879cf.mp4?hash1=235966425e46b4c8b44ea9956b0c8908&hash2=b76556710138f9c2acea12c3d94e0cee">
+                    <button>13 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/14.480.25ea6e969165a9ca.mp4?hash1=3c260ebb65aa659b6698fb6be7e6f748&hash2=50db42e0dc11b6def1e52fd7b27f1005">
+                    <button>14 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/15.480.1e15f52a7a7f1111.mp4?hash1=8438d83f802bc09132c33247c555bdc9&hash2=e39fbcf8e3f3cffdf04c29ef5abae295">
+                    <button>15 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/16.480.c4b97a2c7d045aa7.mp4?hash1=56e3f1cee74f92c569f5b414e749b939&hash2=cbde9fe15255fd71ca444f9241dc827f">
+                    <button>16 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/17.480.f8fdb53aa4aa3a80.mp4?hash1=c4e68a97bb5e41a26febda2455e6682b&hash2=63231942a6472dca18e05d34f6808139">
+                    <button>17 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/18.480.eb9b8c6ad6159742.mp4?hash1=8419e6261fe19703d1748deb8886b3f4&hash2=17ab973d1afebbcb93709704dad0bac2">
+                    <button>18 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/19.480.3a004233a7bffd9a.mp4?hash1=77d4cb064becb225ecbd5a4672b2c652&hash2=087046b8c8f4eedb2c5d468e56288402">
+                    <button>19 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/20.480.15ee190462b96966.mp4?hash1=0fc88070c90b3d8e47989460ae0a4789&hash2=742ccd127d9dc5dbefa4f0e4386758b8">
+                    <button>20 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/21.480.9583fdded927837c.mp4?hash1=488b4f4ec74ee034bcfbfb7a4a735d62&hash2=e33f0abaee92f3a5edb7b5a2d2da03b1">
+                    <button>21 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/22.480.117ee370491c8a53.mp4?hash1=3ac64a096a7a086aaf0de651283f89a3&hash2=587512509a32bb7973e098e0f6040798">
+                    <button>22 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/23.480.a7e59a5b36a2f46e.mp4?hash1=83648ccfb82e33e189da7954d6a7a403&hash2=c3dd96438f3c2685fa61440603510a67">
+                    <button>23 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/24.480.ec19e49d8a471dff.mp4?hash1=b35b9ede288e75243e53bc2f73db025d&hash2=0f47b7eddcec0a482d93d83b69246a8b">
+                    <button>24 series</button>
+                </a>
+                <a href="https://r280105.kujo-jotaro.com/boku-no-hero-academia/2/25.480.74bae7db5f1ac0a0.mp4?hash1=429fb6e7f683a42e26561b891e6f57ef&hash2=edb08019ab935c29b8247504317051eb">
+                    <button>25 series</button>
+                </a>
+            </div>
+                    
+        
+            
+        </section>
+        <section id="gl" class="gallery-page">
+            <img class="gall imgs" src="../img/icons/gallery.png" alt="gallery">
+            <div class="slider1">
+                <img src="../img/slider/2021-10-19 17.00.59.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.47.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.50.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.51.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.52.jpg" alt="">
+            </div>
+            <div class="slider2">
+                <img src="../img/slider/2021-10-19 17.13.43.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.13.48.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.13.50.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.51.jpg" alt="">
+                <img src="../img/slider/2021-10-19 17.01.52.jpg" alt="">
+            </div>
+        </section>
+        <footer>
+            <a href="https://www.facebook.com/"><img src="../img/icons/facebook-svgrepo-com.svg" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="../img/icons/instagram-svgrepo-com.svg" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="../img/icons/twitter-svgrepo-com.svg" alt=""></a>
+            <div class="text">
+                <a href="index.html">About the site</a>
+                <a href="index.html">Site recommendation</a>
+                <a href="index.html">Inquiry</a>
+                <p>Copyright © webdesignclip All Rights Reserved.</p>
+            </div>
+        </footer> 
+    </div>
+    
+
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <script>
+        $('.slider1').slick({
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+        });
+    </script>
+    <script>
+        $('.slider2').slick({
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+        });
+    </script>
+
+    <div id="toTop"><img src="../img/top.png" alt=""></div>
+</body>
+</html>

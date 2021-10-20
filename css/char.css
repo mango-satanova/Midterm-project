@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+.container{
+    max-width: 1440px;
+}
+h1{
+    margin-left: 100px;
+    font-size: 64px;
+}
+header{
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+header .logo img{
+    width: 190px;
+    margin-top: -20px;
+}
+header .links{
+    margin: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+}
+.main-page{
+    background: #000;
+    position: relative;
+    padding-bottom: 100px;
+}
+.main-page .char{
+    width: 1440px;
+    margin-top: -35px;
+}
+/* 1 */
+.h1{
+    color: aquamarine;
+}
+.heroes1{
+    background-image: url(../img/heroes/1/bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+.heroes-moves{
+    margin-top: 150px;
+}
+.heroes-moves img{
+    display: block;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.hero img{
+    width: 500px;
+}
+.about-hero{
+    color: #fff;
+    font-weight: 300;
+    padding-left: 100px;
+    border-bottom: 1px solid rgb(88, 26, 68);
+    border-top: 1px solid rgb(88, 26, 68);
+    padding-bottom: 20px;
+}
+.about-hero h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-hero p{
+    font-size: 20px;
+}
+.about-hero span{
+    color: yellow;
+}
+/* 1 */
+
+/* 2 */
+.heroes2{
+    background-image: url(../img/heroes/2/bg_ch_v_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h2{
+    color: silver;
+}
+/* 2 */
+
+/* 3 */
+.heroes3{
+    background-image: url(../img/heroes/3/bg_ch_h_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h3{
+    color: red;
+}
+.heroes3 .hero img{
+    width: 700px;
+}
+/* 3 */
+
+/* 4 */
+.heroes4{
+    background-image: url(../img/heroes/4/bg_ch_h_03_xx7d.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h4{
+    color: darkkhaki;
+}
+.heroes4 .hero img{
+    width: 700px;
+}
+/* 4 */
+
+/* 5 */
+.heroes5{
+    background-image: url(../img/heroes/5/bg_ch_h_04.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h5{
+    color: lightpink;
+}
+.heroes5 .hero img{
+    width: 700px;
+}
+/* 5 */
+
+/* 6 */
+.heroes6{
+    background-image: url(../img/heroes/6/bg_ch_h_05.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h6{
+    color: cornflowerblue;
+}
+.heroes6 .hero img{
+    width: 700px;
+}
+/* 6 */
+
+/* 7 */
+.heroes7{
+    background-image: url(../img/heroes/7/bg_ch_h_06.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h7{
+    color: blue;
+}
+.heroes6 .hero img{
+    width: 700px;
+}
+/* 7 */
+
+/* 8 */
+.heroes8{
+    background-image: url(../img/heroes/8/bg_ch_h_07.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h8{
+    color: green;
+}
+.heroes8 .hero img{
+    width: 700px;
+}
+/* 8 */
+
+/* 9 */
+.heroes9{
+    background-image: url(../img/heroes/9/bg_ch_h_08.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h9{
+    color: silver;
+}
+.heroes9 .hero img{
+    width: 700px;
+}
+/* 9 */
+
+/* 10 */
+.heroes10{
+    background-image: url(../img/heroes/10/bg_ch_h_09.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h10{
+    color: red;
+}
+.heroes10 .hero img{
+    width: 700px;
+}
+/* 10 */
+
+/* 11 */
+.heroes11{
+    background-image: url(../img/heroes/11/bg_ch_h_10.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h11{
+    color: silver;
+}
+.heroes11 .hero img{
+    width: 700px;
+}
+/* 11 */
+
+/* 12 */
+.heroes12{
+    background-image: url(../img/heroes/12/bg_ch_v_11.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h12{
+    color: crimson;
+}
+.heroes12 .hero img{
+    width: 700px;
+}
+/* 12 */
+
+/* 13 */
+.heroes13{
+    background-image: url(../img/heroes/13/bg_ch_h_11.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h13{
+    color: rgb(70, 94, 68);
+}
+.heroes13 .hero img{
+    width: 700px;
+}
+/* 13 */
+
+/* 14 */
+.heroes14{
+    background-image: url(../img/heroes/14/bg_ch_h_12.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h14{
+    color: rgb(80, 74, 74);
+}
+.heroes14 .hero img{
+    width: 700px;
+}
+/* 14 */
+
+/* 15 */
+.heroes15{
+    background-image: url(../img/heroes/15/bg_ch_h_13.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h15{
+    color: darkred;
+}
+.heroes15 .hero img{
+    width: 700px;
+}
+/* 15 */
+
+/* 16 */
+.heroes16{
+    background-image: url(../img/heroes/16/bg_ch_v_16.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h16{
+    color: rgb(197, 46, 46);
+}
+.heroes16 .hero img{
+    width: 700px;
+}
+/* 16 */
+
+/* 17 */
+.heroes17{
+    background-image: url(../img/heroes/17/bg_ch_v_17.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h17{
+    color: rgb(83, 46, 46);
+}
+.heroes17 .hero img{
+    width: 700px;
+}
+/* 17 */
+
+/* 18 */
+.heroes18{
+    background-image: url(../img/heroes/18/bg_ch_h_18.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h18{
+    color: yellow;
+}
+.heroes18 .hero img{
+    width: 700px;
+}
+/* 18 */
+
+/* 19 */
+.heroes19{
+    background-image: url(../img/heroes/19/bg_ch_v_19.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+}
+.h19{
+    color: rgb(199, 153, 93);
+}
+.heroes19 .hero img{
+    width: 700px;
+}
+/* 19 */
+
+/* 20 */
+.heroes20{
+    background-image: url(../img/heroes/20/bg_ch_v_20.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.h20{
+    color: silver;
+}
+.heroes20 .hero img{
+    width: 700px;
+}
+/* 20 */
